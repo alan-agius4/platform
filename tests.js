@@ -24,7 +24,10 @@ moduleAlias.addAlias('@ngrx', __dirname + '/modules');
 
 runner.loadConfig({
   spec_dir: 'modules',
-  spec_files: [ '**/*.spec.ts' ]
+  spec_files: [ '**/*([^_]).spec.ts', '**/index_spec.ts' ]
 });
 
 runner.execute();
+
+//modules/schematics/src/action/files/__path__/__name@dasherize____type__.spec.ts
+//modules/store/src/test.spec.ts

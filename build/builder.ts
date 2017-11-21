@@ -11,6 +11,7 @@ export default createBuilder([
   ['Cleaning TypeScript files', tasks.cleanTypeScriptFiles],
   ['Removing remaining sourcemap files', tasks.removeRemainingSourceMapFiles],
   ['Copying type definition files', tasks.copyTypeDefinitionFiles],
+  ['Copying schematic files', tasks.copySchematicFiles],
   ['Minifying UMD bundles', tasks.minifyUmdBundles],
   ['Copying documents', tasks.copyDocs],
   ['Copying package.json files', tasks.copyPackageJsonFiles],
